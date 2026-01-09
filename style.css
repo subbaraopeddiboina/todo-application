@@ -10,7 +10,7 @@ body{
 .mainHeadingStyle{
     font-family:"Roboto";
     color: blue;
-    font-size:28px;
+    font-size:32px;
     text-align:center;
     font-weight:bold;
     padding:10px;
@@ -84,3 +84,4 @@ body{
     color:red;
 
 }
+
