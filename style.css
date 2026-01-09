@@ -1,8 +1,10 @@
 body{
     width:auto;
+    background-color: #FFF7ED;
+    font-family: "Segoe UI", sans-serif;
 }
 .todoContainerStyle{
-    background-color:antiquewhite;
+    background-color:#FFFFFF;
     width:100%;
     min-height:100vh;
     padding:10px;
@@ -57,19 +59,19 @@ body{
     width:100%;
 }
 .labelContainerStyle{
-    background-color:orange;
-    width:100%;
-    border-style:solid;
-    border-top-width:0px;
-    border-bottom-width:0px;
-    border-right-width:0px;
-    border-left-width:30px;
-    border-color:red;
-    border-radius:6px; 
-    margin-bottom:9px;
-    cursor:pointer;
+  background-color: #FFFFFF;          /* clean white */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 6px solid #3B82F6;     /* blue accent */
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
 }
 .labelElmentStyle{
+    color: #1F2937
     padding:10px;
     font-size:24px;
     font-weight:600;
@@ -82,9 +84,10 @@ body{
 }
 .labelElementtextline{
     text-decoration:line-through;
-    color:red;
+     color: #9CA3AF
 
 }
+
 
 
 
