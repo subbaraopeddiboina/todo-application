@@ -1,0 +1,84 @@
+body{
+    width:auto;
+}
+.todoContainerStyle{
+    background-color:antiquewhite;
+    width:100%;
+    min-height:100vh;
+    padding:10px;
+}
+.mainHeadingStyle{
+    font-family:"Roboto";
+    font-size:28px;
+    text-align:center;
+    font-weight:bold;
+    padding:10px;
+}
+.createTaskElementStyle{
+    font-family:"Roboto";
+    font-size:28px;
+    font-weight:bold;
+}
+.inputElementStyle {
+  width: 100%;
+  padding:10px;
+  border: 2px solid;
+  box-sizing: border-box;
+  display:block;
+  margin: 0 auto;
+  border-radius:5px;
+  
+}
+.buttonElementStyle{
+    margin-top:20px;
+    margin-left:10px;
+}
+.taskHeadingElementStyle{
+    font-family:"Roboto";
+    font-size:28px;
+    font-weight:bold;
+    margin-top:30px;
+    margin-left:10px;
+}
+.checkBoxElement{
+    font-size:35px;
+    color:black;
+}
+.inboxElementStyle{
+    height:30px;
+    width:30px;
+    margin-top:10px;
+    margin-right:15px;
+    cursor:pointer;
+}
+.checkboxContainerStyle{
+    width:100%;
+}
+.labelContainerStyle{
+    background-color:orange;
+    width:100%;
+    border-style:solid;
+    border-top-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-left-width:30px;
+    border-color:red;
+    border-radius:6px; 
+    margin-bottom:9px;
+    cursor:pointer;
+}
+.labelElmentStyle{
+    padding:10px;
+    font-size:24px;
+    font-weight:600;
+    cursor:pointer;
+}
+.deleteIconStyle{
+    margin-left:auto;
+    padding:15px;
+    cursor:pointer;
+}
+.labelElementtextline{
+    text-decoration:line-through;
+    color:red;
+}
