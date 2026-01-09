@@ -14,7 +14,7 @@ body{
     text-align:center;
     font-weight:bold;
     padding:10px;
-    text-dectoration:under-line;
+    text-dectoration:underline;
 }
 .createTaskElementStyle{
     font-family:"Roboto";
@@ -85,5 +85,6 @@ body{
     color:red;
 
 }
+
 
 
