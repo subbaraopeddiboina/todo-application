@@ -81,10 +81,11 @@ body{
   letter-spacing: 0.3px;
 }
 .deleteIconStyle{
+  margin-left: auto;     /* ✅ pushes icon to last */
   color: #475569;
+  cursor: pointer;
   transition: color 0.2s ease, transform 0.2s ease;
 }
-
 .deleteIconStyle:hover{
   color: #EF4444;
   transform: scale(1.2);
@@ -94,6 +95,7 @@ body{
      color: #9CA3AF
 
 }
+
 
 
 
