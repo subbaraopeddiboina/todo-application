@@ -1,7 +1,6 @@
 body{
-    width:auto;
-    background-color: #FFF7ED;
-    font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #EEF2FF, #F8FAFC);
+  font-family: "Segoe UI", sans-serif;
 }
 .todoContainerStyle{
     background-color:#FFFFFF;
@@ -59,34 +58,43 @@ body{
     width:100%;
 }
 .labelContainerStyle{
-  background-color: #FFFFFF;          /* clean white */
+  background: linear-gradient(135deg, #ffffff, #f1f5ff);
   width: 100%;
   display: flex;
   align-items: center;
-  border-left: 6px solid #3B82F6;     /* blue accent */
-  border-radius: 10px;
-  margin-bottom: 12px;
-  padding: 8px 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
+  border-left: 8px solid #2563EB;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.22);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.labelElmentStyle{
-    color: #1F2937
-    padding:10px;
-    font-size:24px;
-    font-weight:600;
-    cursor:pointer;
+
+.labelContainerStyle:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.32);
+}
+.labelElementStyle{
+  font-size: 18px;
+  font-weight: 600;
+  color: #0F172A;
+  letter-spacing: 0.3px;
 }
 .deleteIconStyle{
-    margin-left:auto;
-    padding:15px;
-    cursor:pointer;
+  color: #475569;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.deleteIconStyle:hover{
+  color: #EF4444;
+  transform: scale(1.2);
 }
 .labelElementtextline{
     text-decoration:line-through;
      color: #9CA3AF
 
 }
+
 
 
 
