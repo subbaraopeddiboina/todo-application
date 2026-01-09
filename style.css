@@ -9,6 +9,7 @@ body{
 }
 .mainHeadingStyle{
     font-family:"Roboto";
+    color: blue;
     font-size:28px;
     text-align:center;
     font-weight:bold;
@@ -81,4 +82,5 @@ body{
 .labelElementtextline{
     text-decoration:line-through;
     color:red;
+
 }
